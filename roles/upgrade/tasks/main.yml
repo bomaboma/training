@@ -1,0 +1,4 @@
+---
+  - name: This will install apache and mysql
+    yum: name="{{item}}" state=latest
+    with_items: "{{app}}"
