@@ -1,6 +1,6 @@
 ---
   - name: These are variables for application install
     app:
-      - httpd
-      - mysql
-      - php
+     - httpd
+     - mysql
+     - php
